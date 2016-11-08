@@ -13,7 +13,8 @@ cd ${BUILDDIR}
 
 tar xvzf /apps/src/${APPNAME}/${APPNAME}-${VERSION}.tar.gz
 cp Make.${ARCH} ${APPNAME}-${VERSION}/
-       
+
+echo $LOADEDMODULES
 mkdir -p /apps/procspec/${APPNAME}/${VERSION}/bin/${ARCH}
 
 cd ${APPNAME}-${VERSION}
