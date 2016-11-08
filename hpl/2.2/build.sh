@@ -4,6 +4,7 @@ APPNAME="hpl"
 VERSION="2.2"
 ARCH="Linux_Intel64"
 
+. /etc/profile.modules
 module load intel/16.1
 module load intel/mkl/11.3.1.150
 
