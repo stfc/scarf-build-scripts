@@ -26,5 +26,5 @@ cp -a bin/ /apps/procspec/${APPNAME}/${VERSION}/
 
 
 cd ../..
-#rm -fr ${BUILDDIR}
+rm -fr ${BUILDDIR}
 
