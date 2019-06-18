@@ -22,10 +22,12 @@ cd ${APPNAME}-${VERSION}
 sed -i -e "s#^TOPdir.*#TOPdir = ${BUILDDIR}/${APPNAME}-${VERSION}#"  Make.${ARCH}
 
 make arch=${ARCH} install
+rc=$?
 
 cd ../..
 rm -fr ${BUILDDIR}
 
+exit $rc
 
 
 
